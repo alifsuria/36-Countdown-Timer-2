@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+}
+
+.title {
+  color: seagreen;
+  font-weight: 700;
+}
+
+#clock-div {
+  font-family: sans-serif;
+  display: inline-block;
+  font-size: 55px;
+  font-weight: 100;
+  color: white;
+}
+
+.box {
+  background-color: darkolivegreen;
+  display: inline-block;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.small-text {
+  font-size: 25px;
+  padding-top: 3px;
+}
+
+#day,
+#hour,
+#minute,
+#second {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding: 65px;
+  font-weight: 700;
+}
