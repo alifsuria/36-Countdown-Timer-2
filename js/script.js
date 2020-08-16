@@ -63,8 +63,8 @@ function initialize_clock(id, deadline) {
   var time_travel = setInterval(update_clock,1000)
 }
 
-//set titme with day,hour,minute,second and times 1000 for change the value into millisecond
+//set time with day,hour,minute,second and times 1000 for change the value into millisecond
 const deadline = new Date(Date.parse(new Date()) + 1 * 24 * 60 * 60 * 1000);
-
+console.log(deadline)
 // console.log(Date.parse(new Date()) + 1 * 24 * 60 * 60 * 1000);
 initialize_clock("clock-div", deadline);
